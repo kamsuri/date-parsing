@@ -34,7 +34,7 @@ def dateparse(filename):
 
 
 def main():
-	test_url = 'http://www.csinsit.org/img/team/mansimar.jpg'
+	test_url = ''
 	name, ext = (test_url.split('/')[-1].split('.'))
 	filename=str(name)+"."+str(ext)
 	download_photo(test_url,filename)
